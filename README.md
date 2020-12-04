@@ -35,6 +35,17 @@ spring 실행 순서(이정도만 일단 알고있으면 될듯)
 4. root-context.xml에 등록되어 있는 Spring Container가 구동
 
 lombok 이란
-ㅣ
+getter, setter 를 따로 설정하지 않아도 쓸 수 있도록 해주는 어노테이션 종류라고 보면됨
+import lombok.Data;
+/*
+@Data
+public class Student {
+    private int id;
+    private String name;
+    private int grade;
+    private String department;
+}
+*/
+이런식으로 사용
 
 
