@@ -114,6 +114,15 @@
 		    <version>5.0.7.RELEASE</version>
 		    <scope>test</scope>
 		</dependency>
+		
+		<!-- 헤카리 -->
+		
+		<dependency>
+		    <groupId>com.zaxxer</groupId>
+		    <artifactId>HikariCP</artifactId>
+		    <version>2.7.5</version>
+		</dependency>
+		
 	</dependencies>
     <build>
         <plugins>
