@@ -36,16 +36,36 @@ spring 실행 순서(이정도만 일단 알고있으면 될듯)
 
 lombok 이란
 getter, setter 를 따로 설정하지 않아도 쓸 수 있도록 해주는 어노테이션 종류라고 보면됨
-import lombok.Data;
-/*
+
 @Data
+
 public class Student {
+
     private int id;
     private String name;
     private int grade;
     private String department;
+
 }
-*/
+
 이런식으로 사용
 
+
+@Log 어노테이션 사용시 로그 찍을 수 있음
+
+어노테이션 종류중에
+@Component
+
+빈으로 <context:component-scan base-package="crontab" />  이런식으로 클래스를 생성
+해당 클래스에서
+@Component 
+public class scheduler {
+이렇게 받음
+
+@Autowired
+AreaRestService gntRestService;
+이런식으로 다른 class를 상속받을 때 사용함
+
+
+72페이지 
 
