@@ -67,5 +67,6 @@ AreaRestService gntRestService;
 이런식으로 다른 class를 상속받을 때 사용함
 
 
-72페이지 
+오라클db 설치
+
 
