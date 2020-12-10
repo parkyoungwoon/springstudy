@@ -35,6 +35,24 @@ spring 실행 순서(이정도만 일단 알고있으면 될듯)
 3. 생성된 ContextLoaderListener는 root-context.xml을 Loading
 4. root-context.xml에 등록되어 있는 Spring Container가 구동
 
-현재 스프링 63페이지까지 했음
+DB 라이브러리 설정
+root-context 에서 설정
+스프링이로딩되면서 읽어 들이는 문서이므로 주로 만들어진 클래스들은 이용해서 스프링의 빈으로 등록할 때 사용됨
+
+자바에서 설정할 경우
+@Bean 어노테이션을 이용하여 등록함
+
+MyBatis 연동
+
+실행되는 과정
+String <-> MyBatis <-> DB
+
+MyBatis 의 핵심 객체
+SQLSessionFactory는 SQLSession를 생성해내는 객체
+SQLSession를 이용하여 Connection을 생성하거나 SQL을 전달 리턴받는 구조로 작성
+
+
+
+현재 스프링 97페이지까지 했음
 
 
