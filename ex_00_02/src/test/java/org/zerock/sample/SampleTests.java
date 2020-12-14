@@ -25,5 +25,6 @@ public class SampleTests {
 		log.info(restaurant);
 		log.info("---------------------------");
 		log.info(restaurant.getChef());
+		System.out.println("테스트중");
 	}
 }
